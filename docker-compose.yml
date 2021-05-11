@@ -21,4 +21,9 @@ services:
     depends_on:
       - backend
     restart: on-failure
+    
+networks:
+  default:
+    external:
+      name: project221
 
